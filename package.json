@@ -1,6 +1,6 @@
 {
 	"name": "gen-random-name",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "A barebones name generator using adjective-noun pairs.",
 	"repository": {
 		"type": "git",
