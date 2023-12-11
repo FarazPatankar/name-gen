@@ -1,5 +1,5 @@
 {
-	"name": "name-gen",
+	"name": "name-generator",
 	"version": "0.0.0",
 	"description": "A barebones name generator using adjective-noun pairs.",
 	"repository": {
