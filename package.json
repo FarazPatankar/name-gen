@@ -8,6 +8,7 @@
 	},
 	"license": "MIT",
 	"author": {
+		"name": "Faraz Patankar",
 		"email": "farazpatankar@gmail.com"
 	},
 	"type": "module",
