@@ -1,7 +1,7 @@
 {
 	"name": "name-gen",
 	"version": "0.0.0",
-	"description": "A very lovely package. Hooray!",
+	"description": "A barebones name generator using adjective-noun pairs.",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/FarazPatankar/name-gen"
