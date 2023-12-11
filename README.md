@@ -1,6 +1,6 @@
-<h1 align="center">Name Gen</h1>
+<h1 align="center">Gen Random Name</h1>
 
-<p align="center">A very lovely package. Hooray!</p>
+<p align="center">A barebones name generator using adjective-noun pairs.</p>
 
 <p align="center">
 	<!-- prettier-ignore-start -->
