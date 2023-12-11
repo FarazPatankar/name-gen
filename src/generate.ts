@@ -7,11 +7,9 @@ const getRandomWord = (list: string[]): string => {
 	return list[randomIndex];
 };
 
-const generate = () => {
+export const generate = () => {
 	const adjective = getRandomWord(adjectives);
 	const noun = getRandomWord(nouns);
 
 	return adjective + "-" + noun;
 };
-
-export default generate;

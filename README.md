@@ -19,13 +19,13 @@
 ## Usage
 
 ```shell
-npm i name-gen
+npm i gen-random-name
 ```
 
 ```ts
-import { greet } from "name-gen";
+import { generate } from "gen-random-name";
 
-greet("Hello, world! 💖");
+generate();
 ```
 
 ## Contributors

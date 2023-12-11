@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import generate from "./generate.js";
+import { generate } from "./generate.js";
 import adjectives from "./words/adjectives.js";
 import nouns from "./words/nouns.js";
 
