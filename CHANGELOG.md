@@ -1,3 +1,9 @@
+## [0.2.3](https://github.com/FarazPatankar/name-gen/compare/0.2.2...0.2.3) (2024-04-22)
+
+### Bug Fixes
+
+- fix cjs? ([8338bbc](https://github.com/FarazPatankar/name-gen/commit/8338bbcf2626e4ccf6a34579417e346854c178df))
+
 ## [0.2.2](https://github.com/FarazPatankar/name-gen/compare/0.2.1...0.2.2) (2024-04-15)
 
 ### Bug Fixes
