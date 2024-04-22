@@ -11,18 +11,16 @@
 		"name": "Faraz Patankar",
 		"email": "farazpatankar@gmail.com"
 	},
-	"type": "module",
 	"exports": {
 		".": {
-			"types": {
-				"import": "./lib/index.d.ts",
-				"require": "./lib/index.d.cts"
-			},
-			"import": "./lib/index.js",
-			"require": "./lib/index.cjs"
+			"require": "./lib/index.js",
+			"import": "./lib/index.mjs",
+			"types": "./lib/index.d.ts"
 		}
 	},
 	"main": "./lib/index.js",
+	"module": "./lib/index.mjs",
+	"types": "./lib/index.d.ts",
 	"files": [
 		"lib/",
 		"package.json",
