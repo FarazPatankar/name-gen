@@ -1,3 +1,9 @@
+# [0.3.0](https://github.com/FarazPatankar/name-gen/compare/0.2.3...0.3.0) (2024-11-08)
+
+### Features
+
+- add "cat" to nouns ([#1](https://github.com/FarazPatankar/name-gen/issues/1)) ([1e5f954](https://github.com/FarazPatankar/name-gen/commit/1e5f9542fc06539af8a2f889289dfe8a3c5f383c))
+
 ## [0.2.3](https://github.com/FarazPatankar/name-gen/compare/0.2.2...0.2.3) (2024-04-22)
 
 ### Bug Fixes
