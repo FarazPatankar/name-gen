@@ -16,6 +16,7 @@ const nouns: string[] = [
 	"blessing",
 	"bravery",
 	"caring",
+	"cat",
 	"celebration",
 	"charisma",
 	"charm",
