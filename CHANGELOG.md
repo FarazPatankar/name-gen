@@ -1,3 +1,9 @@
+# [0.4.0](https://github.com/FarazPatankar/name-gen/compare/0.3.0...0.4.0) (2025-06-24)
+
+### Features
+
+- add withColor optional arg ([29df7e5](https://github.com/FarazPatankar/name-gen/commit/29df7e5c6b96141823dfd90bdd17d7d10e39a7e7))
+
 # [0.3.0](https://github.com/FarazPatankar/name-gen/compare/0.2.3...0.3.0) (2024-11-08)
 
 ### Features
