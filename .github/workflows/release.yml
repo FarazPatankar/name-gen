@@ -12,7 +12,8 @@ jobs:
       - uses: ./.github/actions/prepare
       - uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
       - run: pnpm build
       - run: npx should-semantic-release --verbose && npx release-it --verbose
         env:
