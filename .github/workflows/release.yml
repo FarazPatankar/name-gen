@@ -15,7 +15,10 @@ jobs:
           node-version: "24"
           registry-url: "https://registry.npmjs.org"
       - run: pnpm build
-      - run: npx should-semantic-release --verbose && npx release-it --verbose
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          npx should-semantic-release --verbose && npx release-it --verbose
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
