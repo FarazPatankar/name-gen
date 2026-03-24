@@ -10,10 +10,14 @@ jobs:
           fetch-depth: 0
           ref: main
       - uses: ./.github/actions/prepare
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          registry-url: "https://registry.npmjs.org"
       - run: pnpm build
-      - env:
+      - run: npx should-semantic-release --verbose && npx release-it --verbose || echo "No release needed"
+        env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        uses: JoshuaKGoldberg/release-it-action@v0.2.2
 
 name: Release
 
