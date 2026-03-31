@@ -4,6 +4,9 @@ import colors from "./words/colors.js";
 
 interface GenerateOptions {
 	withColor?: boolean;
+	adjectives?: (adjectives: string[]) => string[];
+	nouns?: (nouns: string[]) => string[];
+	colors?: (colors: string[]) => string[];
 }
 
 const getRandomWord = (list: string[]): string => {
@@ -13,11 +16,14 @@ const getRandomWord = (list: string[]): string => {
 };
 
 export const generate = (options: GenerateOptions = {}) => {
-	const adjective = getRandomWord(adjectives);
-	const noun = getRandomWord(nouns);
+	const allAdjectives = options.adjectives?.(adjectives) ?? adjectives;
+	const adjective = getRandomWord(allAdjectives);
+	const allNouns = options.nouns?.(nouns) ?? nouns;
+	const noun = getRandomWord(allNouns);
 
 	if (options.withColor) {
-		const color = getRandomWord(colors);
+		const allColors = options.colors?.(colors) ?? colors;
+		const color = getRandomWord(allColors);
 		return color + "-" + adjective + "-" + noun;
 	}
 
